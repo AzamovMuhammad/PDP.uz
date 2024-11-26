@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
     background-image: url(../img/header.bg.png);
@@ -21,7 +21,12 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-
+}
+.logo #white{
+    display: block;
+}
+.logo #black{
+    display: none;
 }
 #navbar a {
     float: left;
@@ -41,4 +46,10 @@ body {
     margin-left: 8%;
     color: white;
     gap: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.phoneButton:active{
+    scale: 0.87;
+    background: #005d03;
 }
