@@ -321,3 +321,75 @@ body {
     top: 800px;
   }
 }
+/* =======================founder part================== */
+.founder{
+  width: 100%;
+  background: #152343;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.founder-part{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.f-left{
+  width: 40%;
+  position: relative;
+}
+.f-left img{
+  width: 360px;
+  margin-top: 120px;
+}
+.f-right{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.f-right span{
+  margin-top: 120px;
+}
+.f-right h6{
+  margin: 0;
+  font-size: 16px;
+}
+.f-right h2{
+  margin: 0;
+  font-size: 38px;
+  color: #FFCC19;
+}
+.f-right p{
+  margin-top: 40px;
+}
+.f-right h3{
+  margin: 20px 0px 0px 0px;
+}
+.f-right h4{
+  margin: 0;color: #FFCC19;
+}
+.f-ecosystem{
+  width: 100%;
+  margin-top: 40px;
+}
+.f-ecosystem img{
+  width: 90px;
+  aspect-ratio: 6/2;
+  object-fit: contain;
+  padding: 10px;
+}
+@media (max-width: 1240px) {
+  .founder-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .f-right span{
+    margin-top: 20px;
+  }
+  .f-right{
+    text-align: center;
+  }
+}
