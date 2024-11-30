@@ -3,13 +3,17 @@
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
+  body{
+    background: #fbfbfb;
+
+  }
   .asosiy {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px ;
   }
   .asosiy-tepa {
     width: 60%;
@@ -285,3 +289,128 @@
     }
   }
   
+  .feedback{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfb;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .feedback-p h1{
+    color: black;
+    font-size: 40px;
+    gap: 30px;
+    
+
+  }
+  .feedback-p{
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+    font-size: 18px;
+  }
+  .feedback-p p{
+    width: 80%;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .p-video video{
+    width: 300px;
+    border-radius: 10px;
+  }
+  .p-video{
+    display:flex;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* =========================map part ======================================== */
+  .map{
+    width: 100%;
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+  }
+  .harita{
+    width: 80%;
+    background-color: white;
+    border-radius: 18px;
+    padding: 20px;
+
+  }
+  .map-lm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .map-lm h2{
+    width: 30%;
+  }
+  .map-items{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ints{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+  }
+  .ints input{
+    width: 50%;
+    height: 30px;
+    outline: none;
+    padding: 3px 20px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+  }
+  .btnsM{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .btnsM h2{
+    width: 60%;
+  }
+  .btnsM h2 i{
+    color: #00c508;
+  }
+  .btnMap{
+    width: 150px;
+    height: 40px;
+    border-radius: 14px;
+    border: none;
+    background: #00c508;
+    color: white;
+  }
+  .btnMap i{
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .frame{
+    width: 100%;
+  }
+  .frame iframe{
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+
+
