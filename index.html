@@ -12,13 +12,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   </head>
   <body>
+    <audio src="assets/audio/finger-snap.mp3" id="audio"></audio>
     <div class="container">
       <div id="navbar">
         <div class="logo">
-          <a id="white" href="index.html"
+          <a onclick="playFingerSnap()" id="white" href="index.html"
             ><img src="assets/svg/academy logo white.svg" alt=""
           /></a>
-          <a id="black" href="index.html"
+          <a onclick="playFingerSnap()" id="black" href="index.html"
             ><img src="assets/svg/academy logo.svg" alt=""
           /></a>
         </div>
@@ -28,11 +29,11 @@
         </label>
         <div class="noneBtn">
           <ul>
-            <a id="link1" href="#">Online kurslar</a>
-            <a id="link2" href="kamola.html">Offline kurslar</a>
-            <a id="link3" href="muhammadali.html">"Junior" loyihasi</a>
+            <a onclick="playFingerSnap()" id="link1" href="#">Online kurslar</a>
+            <a onclick="playFingerSnap()" id="link2" href="kamola.html">Offline kurslar</a>
+            <a onclick="playFingerSnap()" id="link3" href="muhammadali.html">"Junior" loyihasi</a>
           </ul>
-          <div class="phoneButton">
+          <div onclick="playFingerSnap()" class="phoneButton">
             <i class="fas fa-phone-alt" style="color: white"></i>
             <p>+998(78) 777 47 47</p>
           </div>
@@ -160,12 +161,12 @@
             alt="PDP School" />
         </div>
         <div class="timeline">
-          <button class="year-btn" data="2017">2017</button>
-          <button class="year-btn" data="2019">2019</button>
-          <button class="year-btn" data="2020">2020</button>
-          <button class="year-btn" data="2021">2021</button>
-          <button class="year-btn" data="2022">2022</button>
-          <button class="year-btn active" data="2023">2023</button>
+          <button onclick="playFingerSnap()" class="year-btn" data="2017">2017</button>
+          <button onclick="playFingerSnap()" class="year-btn" data="2019">2019</button>
+          <button onclick="playFingerSnap()" class="year-btn" data="2020">2020</button>
+          <button onclick="playFingerSnap()" class="year-btn" data="2021">2021</button>
+          <button onclick="playFingerSnap()" class="year-btn" data="2022">2022</button>
+          <button onclick="playFingerSnap()" class="year-btn active" data="2023">2023</button>
         </div>
       </div>
     </div>
@@ -186,7 +187,7 @@
             <input type="text" id="phone" />
           </span>
         </div>
-        <button class="btn">Yuborish</button>
+        <button onclick="playFingerSnap()" class="btn">Yuborish</button>
       </div>
     </div>
     <!--======================= middle card group ========================-->
@@ -207,7 +208,7 @@
               dasturlashni istalgan joyda, istalgan paytda o'rganishingiz
               mumkin.
             </p>
-            <button class="btn">
+            <button onclick="playFingerSnap()" class="btn">
               Batafsil <i class="fas fa-chevron-right"></i>
             </button>
           </div>
@@ -222,7 +223,7 @@
               dasturlashni istalgan joyda, istalgan paytda o'rganishingiz
               mumkin.
             </p>
-            <button class="btn">
+            <button onclick="playFingerSnap()" class="btn">
               Batafsil <i class="fas fa-chevron-right"></i>
             </button>
           </div>
@@ -237,7 +238,7 @@
               dasturlashni istalgan joyda, istalgan paytda o'rganishingiz
               mumkin.
             </p>
-            <button class="btn">
+            <button onclick="playFingerSnap()" class="btn">
               Batafsil <i class="fas fa-chevron-right"></i>
             </button>
           </div>
@@ -318,35 +319,35 @@
         <div class="footer-logo">
           <img src="assets/svg/academy logo white.svg" alt="PDP Academy Logo" />
           <div class="social-links">
-            <a
+            <a onclick="playFingerSnap()"
               class="social-icon"
               target="_blank"
               href="https://instagram.com/pdpuz"
               ><i class="fab fa-instagram"></i
             ></a>
-            <a
+            <a onclick="playFingerSnap()"
               class="social-icon"
               target="_blank"
               href="https://www.youtube.com/@pdpuz"
               ><i class="fab fa-youtube"></i
             ></a>
-            <a class="social-icon" target="_blank" href="https://t.me/pdpuz"
+            <a onclick="playFingerSnap()" class="social-icon" target="_blank" href="https://t.me/pdpuz"
               ><i class="fab fa-telegram-plane"></i
             ></a>
-            <a
+            <a onclick="playFingerSnap()"
               class="social-icon"
               target="_blank"
               href="https://www.facebook.com/pdpuz"
               ><i class="fab fa-facebook-f"></i
             ></a>
             <div style="display: flex; flex-wrap: wrap; gap: 20px">
-              <button href="https://t.me/pdpaloqabot" class="green-button">
+              <button onclick="playFingerSnap()" href="https://t.me/pdpaloqabot" class="green-button">
                 <i class="fas fa-robot"></i>PDP Aloqa
               </button>
 
-              <section class="modal hidden">
+              <section onclick="playFingerSnap()" class="modal hidden">
                 <div class="flex">
-                  <button class="btn-close">⨉</button>
+                  <button onclick="playFingerSnap()" class="btn-close">⨉</button>
                 </div>
                 <h1>
                   Kurslarimizga ro'yxatdan o'tib, kelajagingiz uchun muhim
@@ -362,11 +363,11 @@
                     id="email"
                     placeholder="Telefon raqamingiz" />
                 </div>
-                <button class="btn">Yuborish <i class="fas fa-chevron-right"></i></button>
+                <button onclick="playFingerSnap()" class="btn">Yuborish <i class="fas fa-chevron-right"></i></button>
               </section>
 
               <div class="overlay hidden"></div>
-              <button href="#" class="green-button btn-open">
+              <button onclick="playFingerSnap()" href="#" class="green-button btn-open">
                 <i class="far fa-calendar-plus"></i>Kursga yozilish
               </button>
             </div>
@@ -374,13 +375,13 @@
         </div>
 
         <div class="footer-links">
-          <a target="_blank" href="index.html">PDP Academy</a>
-          <a target="_blank" href="muhammadali.html">PDP Junior</a>
-          <a target="_blank" href="https://university.pdp.uz/">PDP University</a>
-          <a target="_blank" href="https://school.pdp.uz/">PDP School</a>
-          <a target="_blank" href="https://online.pdp.uz/">PDP Online</a>
-          <a target="_blank" href="https://unicorn.pdp.uz/">PDP Unicorn</a>
-          <a target="_blank" href="index.html">PDP College</a>
+          <a onclick="playFingerSnap()"  href="index.html">PDP Academy</a>
+          <a onclick="playFingerSnap()"  href="muhammadali.html">PDP Junior</a>
+          <a onclick="playFingerSnap()" target="_blank" href="https://university.pdp.uz/">PDP University</a>
+          <a onclick="playFingerSnap()" target="_blank" href="https://school.pdp.uz/">PDP School</a>
+          <a onclick="playFingerSnap()" target="_blank" href="https://online.pdp.uz/">PDP Online</a>
+          <a onclick="playFingerSnap()" target="_blank" href="https://unicorn.pdp.uz/">PDP Unicorn</a>
+          <a onclick="playFingerSnap()"  href="index.html">PDP College</a>
         </div>
         <div class="footer-bottom">
           <p>©2023 PDP Academy</p>

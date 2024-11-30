@@ -103,3 +103,10 @@ const openModal = function () {
 };
 // open modal event
 openModalBtn.addEventListener("click", openModal);
+
+
+function playFingerSnap() {
+  const audio = document.getElementById('audio');
+  audio.play()
+}
+// playFingerSnap()
