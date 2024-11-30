@@ -13,10 +13,11 @@
     />
   </head>
   <body>
+    <audio src="assets/audio/finger-snap.mp3" id="audio"></audio>
     <div class="container">
       <div id="navbar">
         <div class="logo">
-          <a id="black" href="index.html"
+          <a  id="black" href="index.html"
             ><img src="assets/svg/academy logo.svg" alt=""
           /></a>
         </div>
@@ -30,7 +31,7 @@
             <a id="link2" href="kamola.html">Offline kurslar</a>
             <a id="link3" href="muhammadali.html">"Junior" loyihasi</a>
           </ul>
-          <div class="phoneButton">
+          <div onclick="playFingerSnap()" class="phoneButton">
             <i class="fas fa-phone-alt" style="color: white"></i>
             <p>+998(78) 777 47 47</p>
           </div>
@@ -53,7 +54,7 @@
         </p>
         <section class="modal hidden">
           <div class="flex">
-            <button class="btn-close">⨉</button>
+            <button onclick="playFingerSnap()" class="btn-close">⨉</button>
           </div>
           <h1>
             Kurslarimizga ro'yxatdan o'tib, farzandingiz kelajagi uchun muhim
@@ -63,13 +64,13 @@
             <input type="email" id="email" placeholder="Ismingiz" />
             <input type="email" id="email" placeholder="Telefon raqamingiz" />
           </div>
-          <button class="btn">
+          <button onclick="playFingerSnap()" class="btn">
             Yuborish <i class="fas fa-chevron-right"></i>
           </button>
         </section>
 
         <div class="overlay hidden"></div>
-        <button href="#" class="green-button btn-open">
+        <button onclick="playFingerSnap()" href="#" class="green-button btn-open">
           <i class="far fa-calendar-plus"></i>Bepul konsultatsiya olish
         </button>
       </div>
@@ -267,7 +268,7 @@
               </div>
               <div class="btnsM">
                 <h2><i class="fas fa-phone-alt"></i> Bog’lanish uchun: (78) 777-47-47</h2>
-                <button class="btnMap">Yuborish <i class="fas fa-chevron-right"></i></button>
+                <button onclick="playFingerSnap()" class="btnMap">Yuborish <i class="fas fa-chevron-right"></i></button>
               </div>
             </div>
           </div>
@@ -281,35 +282,35 @@
           <div class="footer-logo">
             <img src="assets/svg/academy logo white.svg" alt="PDP Academy Logo" />
             <div class="social-links">
-              <a
+              <a onclick="playFingerSnap()"
                 class="social-icon"
                 target="_blank"
                 href="https://instagram.com/pdpuz"
                 ><i class="fab fa-instagram"></i
               ></a>
-              <a
+              <a onclick="playFingerSnap()"
                 class="social-icon"
                 target="_blank"
                 href="https://www.youtube.com/@pdpuz"
                 ><i class="fab fa-youtube"></i
               ></a>
-              <a class="social-icon" target="_blank" href="https://t.me/pdpuz"
+              <a onclick="playFingerSnap()" class="social-icon" target="_blank" href="https://t.me/pdpuz"
                 ><i class="fab fa-telegram-plane"></i
               ></a>
-              <a
+              <a onclick="playFingerSnap()"
                 class="social-icon"
                 target="_blank"
                 href="https://www.facebook.com/pdpuz"
                 ><i class="fab fa-facebook-f"></i
               ></a>
               <div style="display: flex; flex-wrap: wrap; gap: 20px">
-                <button href="https://t.me/pdpaloqabot" class="green-button">
+                <button onclick="playFingerSnap()" href="https://t.me/pdpaloqabot" class="green-button">
                   <i class="fas fa-robot"></i>PDP Aloqa
                 </button>
   
                 <section class="modal2 hidden2">
                   <div class="flex2">
-                    <button class="btn-close2">⨉</button>
+                    <button onclick="playFingerSnap()" class="btn-close2">⨉</button>
                   </div>
                   <h1>
                     Kurslarimizga ro'yxatdan o'tib, kelajagingiz uchun muhim
@@ -325,11 +326,11 @@
                       id="email"
                       placeholder="Telefon raqamingiz" />
                   </div>
-                  <button class="btn2">Yuborish <i class="fas fa-chevron-right"></i></button>
+                  <button onclick="playFingerSnap()" class="btn">Yuborish <i class="fas fa-chevron-right"></i></button>
                 </section>
   
                 <div class="overlay2 hidden2"></div>
-                <button href="#" class="green-button btn-open2">
+                <button onclick="playFingerSnap()" href="#" class="green-button btn-open2">
                   <i class="far fa-calendar-plus"></i>Kursga yozilish
                 </button>
               </div>
@@ -337,13 +338,13 @@
           </div>
   
           <div class="footer-links">
-            <a target="_blank" href="index.html">PDP Academy</a>
-            <a target="_blank" href="muhammadali.html">PDP Junior</a>
-            <a target="_blank" href="https://university.pdp.uz/">PDP University</a>
-            <a target="_blank" href="https://school.pdp.uz/">PDP School</a>
-            <a target="_blank" href="https://online.pdp.uz/">PDP Online</a>
-            <a target="_blank" href="https://unicorn.pdp.uz/">PDP Unicorn</a>
-            <a target="_blank" href="index.html">PDP College</a>
+            <a onclick="playFingerSnap()"  href="index.html">PDP Academy</a>
+            <a onclick="playFingerSnap()"  href="muhammadali.html">PDP Junior</a>
+            <a onclick="playFingerSnap()" target="_blank" href="https://university.pdp.uz/">PDP University</a>
+            <a onclick="playFingerSnap()" target="_blank" href="https://school.pdp.uz/">PDP School</a>
+            <a onclick="playFingerSnap()" target="_blank" href="https://online.pdp.uz/">PDP Online</a>
+            <a onclick="playFingerSnap()" target="_blank" href="https://unicorn.pdp.uz/">PDP Unicorn</a>
+            <a onclick="playFingerSnap()"  href="index.html">PDP College</a>
           </div>
           <div class="footer-bottom">
             <p>©2023 PDP Academy</p>

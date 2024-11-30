@@ -60,3 +60,9 @@ const openModal2 = function () {
 openModalBtn2.addEventListener("click", openModal2);
 
   
+
+function playFingerSnap() {
+  const audio = document.getElementById('audio');
+  audio.play()
+}
+// playFingerSnap()

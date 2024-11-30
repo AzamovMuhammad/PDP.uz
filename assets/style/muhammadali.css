@@ -540,7 +540,7 @@ body {
   justify-content: space-between;
 }
 .btnsM h2 {
-  width: 60%;
+  width: 65%;
 }
 .btnsM h2 i {
   color: #00c508;
@@ -727,6 +727,8 @@ footer {
 .btn-close2 {
   background: #eee;
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 .overlay2 {
